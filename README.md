@@ -1,8 +1,12 @@
 # learn-git-flow
-recipe
+
+## recipe
+## setup - once
 * copy from repository `git-flow-sem-ver` to `.git\hooks`
 * in the root do `git flow init`
 * update remote `git push origin develop`
+
+## lifecycle - many
 * start with `git flow feature start whatever`
 * code, commit, push. dont forget to create file in root, named *VERSION* with content *0.0.0* 
 * end with `git flow feature finish`
