@@ -2,7 +2,7 @@
 
 ## recipe
 ## setup - once
-* copy from repository `git-flow-sem-ver` to `.git\hooks`
+* copy from repository/folder `git-flow-sem-ver` to `.git\hooks`
 * in the root do `git flow init`
 * update remote `git push origin develop`
 
